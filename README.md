@@ -1,3 +1,78 @@
+# Setup
+
+```sh
+npx storybook@latest init
+```
+
+# Components
+
+## Input
+
+```html
+<input
+  type="text"
+  id=""
+  name=""
+  value=""
+  size=""
+  max="number | date"
+  min="number | date"
+  maxlength="number"
+  minlength="number"
+  autocomplete="on | off"
+  autofocus="autofocus"
+  disabled="disabled"
+  dirname="inputname.dir"
+  form="form_id"
+  formaction="URL"
+  formnovalidate="formnovalidate"
+/>
+<input type="checkbox" checked="checked" />
+<input type="radio" checked="checked" />
+<input type="file" multiple="multiple" accept="file_extension | audio/* | video/* | image/* | media_type" />
+<input
+  type="image"
+  src=""
+  alt=""
+  width=""
+  height=""
+  formenctype="application/x-www-form-urlencoded | multipart/form-data | text/plain"
+  formmethod="get | post"
+  formtarget="_blank | _self | _parent | _top | framename"
+/>
+<input
+  type="submit"
+  id="" name=""
+  formenctype="application/x-www-form-urlencoded | multipart/form-data | text/plain"
+  formmethod="get | post"
+  formtarget="_blank | _self | _parent | _top | framename"
+/>
+
+<textarea
+  id=""
+  name=""
+  rows="4"
+  cols="50"
+  maxlength="200"
+  placeholder=""
+  autofocus="autofocus"
+  disabled="disabled"
+  readonly="readonly"
+  required="required"
+  wrap="hard|soft"
+  dirname="textareaname.dir"
+  form="form_id"
+>
+  Content in here...
+</textarea>
+
+type?:
+  'text' | 'number' | 'hidden' | 'checkbox' | 'radio' | 'password' | 'file' | 'image' | 'reset'
+  'button' | 'submit'
+  'email' | 'tel' | 'url' | 'color' | 'date' | 'range'
+  'time' | 'search' | 'datetime-local' | 'month' | 'week'
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
